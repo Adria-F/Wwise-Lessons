@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BB3F0547-578D-4CCC-9AA0-836AD05AE109}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{BB3F0547-578D-4CCC-9AA0-836AD05AE109}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Fire_Shotgun_Player" ID="{D84AC281-7B7E-4015-BF16-AECEF1DA9472}">
+					<ChildrenList>
+						<Action Name="" ID="{647663DA-20B9-43A5-B4A6-CA514FF03374}" ShortID="636023351">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shotgun_Blast" ID="{E83399F5-848E-4B4C-BEBD-AA5D1267904F}" WorkUnitID="{24CA6058-8300-4269-9BBA-0ED8E4EFE1BC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5FE777ED-1B79-4E5B-98C0-8AF3EDC10519}" ShortID="283158824">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="0.4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shotgun_Pump_In" ID="{17DDB76B-B396-4E5F-8366-4041E5DD0E87}" WorkUnitID="{24CA6058-8300-4269-9BBA-0ED8E4EFE1BC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FEC7CA83-0644-43DC-84C5-DEA2CBB0593D}" ShortID="858120118">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="0.7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shotgun_Pump_Out" ID="{004E487B-FB72-432D-AC89-90E54C4A7C46}" WorkUnitID="{24CA6058-8300-4269-9BBA-0ED8E4EFE1BC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EAA9C4EB-C439-406C-9BFD-26807843399B}" ShortID="969231335">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="1.1">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D71B55A5-3173-4C57-867E-F5302D4D07BD}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shotgun Shells" ID="{0C69F924-D0B1-4A90-91C3-C8BE49AA56D3}" WorkUnitID="{24CA6058-8300-4269-9BBA-0ED8E4EFE1BC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
