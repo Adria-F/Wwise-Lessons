@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="UserProjectSettings" SchemaVersion="89">
+	<UserProjectSettingsInfo>
+		<UserProjectSettings Name="" ID="{CBD7EF1D-2FA0-414F-9C6F-8619E49ADF3A}">
+			<PropertyList>
+				<Property Name="Event Action List\{3B1516F0-8CCE-47E7-99BD-097A1B811B1F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4511782C-77A5-4EC7-B86F-1A914C7395DB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{53536978-75D5-48D0-B19B-210DC5361B10}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{667FCA65-1A88-4A5F-8660-4C77FCF15E52}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7E1E47DC-9DAC-459C-9004-8DB8C3366CF8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{8F2A275D-2E83-45AB-96C5-E896BFDD836E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A54A7E83-4217-46A4-92E6-36692FED5A18}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C8AB1E63-96FC-48BA-977C-0D992CB1598E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C8FD66C7-E828-4FE8-915C-C95F36929F6A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D1AA037A-7BBB-43EB-96F5-A88E16FB306F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E2BFDC16-779C-4D15-8D4E-C940818E5DD3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F386F3E5-6E5E-4A9B-B068-119DDD238191}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="ExternalSourcesInputPath" Type="string">
+					<ValueList>
+						<Value Platform="Mac"></Value>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="ExternalSourcesOutputPath" Type="string">
+					<ValueList>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+					</ValueList>
+				</Property>
+				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
+				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
+				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
+				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
+				<Property Name="Mixing Desk\CurrentStates\{B35C859F-4841-49E0-8B98-85DFAC37BFF5}" Type="string" Value="{9C5D7F20-92FC-4387-9BCC-F6F4D27F9B34}"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
+				<Property Name="SoundBankPaths" Type="string">
+					<ValueList>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
+					<ValueList>
+						<Value Platform="Mac">Copy Streamed Files</Value>
+						<Value Platform="Windows">Copy Streamed Files</Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
+					<ValueList>
+						<Value Platform="Mac">"$(WwiseExePath)\CopyStreamedFiles.exe" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
+						<Value Platform="Windows">"$(WwiseExePath)\CopyStreamedFiles.exe" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
+					<ValueList>
+						<Value Platform="Mac"></Value>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
+					<ValueList>
+						<Value Platform="Mac"></Value>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+			</PropertyList>
+		</UserProjectSettings>
+	</UserProjectSettingsInfo>
+</WwiseDocument>
