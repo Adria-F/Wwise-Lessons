@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3E02D48D-D5EF-4824-8A46-9DDF30F08B15}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Music" ID="{3E02D48D-D5EF-4824-8A46-9DDF30F08B15}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Music" ID="{58D666B0-3851-4706-8D47-98CEE16014C1}">
+					<ChildrenList>
+						<Action Name="" ID="{8B1E1B5C-72FA-4C78-9081-87354CFB15E8}" ShortID="71592053">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explore" ID="{54CE0039-7242-417A-9DF7-B433FB629C24}" WorkUnitID="{4B24D605-7716-4B51-AF8E-D41BA190D229}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

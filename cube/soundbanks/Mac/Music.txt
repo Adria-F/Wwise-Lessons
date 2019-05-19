@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Music\Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	274485107	Explore-Piano_138bpm4-4_L16M-P0	D:\Usuarios\rma\Desktop\Wwise-Lessons\201\Lesson 1\.cache\Mac\SFX\Explore-Piano_138bpm4-4_L16M-P0_0A288869.wem		\Interactive Music Hierarchy\Music\Explore\Explore-Piano_138bpm4-4_L16M-P0\Explore-Piano_138bpm4-4_L16M-P0		6678324
+	334278060	Explore-Rhythm_138bpm4-4_L16M-P1M	D:\Usuarios\rma\Desktop\Wwise-Lessons\201\Lesson 1\.cache\Mac\SFX\Explore-Rhythm_138bpm4-4_L16M-P1M_0A288869.wem		\Interactive Music Hierarchy\Music\Explore\Explore-Rhythm_138bpm4-4_L16M-P1M\Explore-Rhythm_138bpm4-4_L16M-P1M		6344412
+	532338111	Explore-Bridge_138bpm4-4_L17M-P0	D:\Usuarios\rma\Desktop\Wwise-Lessons\201\Lesson 1\.cache\Mac\SFX\Explore-Bridge_138bpm4-4_L17M-P0_0A288869.wem		\Interactive Music Hierarchy\Music\Explore\Explore-Bridge_138bpm4-4_L17M-P0\Explore-Bridge_138bpm4-4_L17M-P0		6528144
+	562753799	Explore-TransToBridge_138bpm3-4_L3M-P1M	D:\Usuarios\rma\Desktop\Wwise-Lessons\201\Lesson 1\.cache\Mac\SFX\Explore-TransToBridge_138bpm3-4_L3M-P1M_0A288869.wem		\Interactive Music Hierarchy\Music\Explore\Explore-TransToBridge_138bpm3-4_L3M-P1M\Explore-TransToBridge_138bpm3-4_L3M-P1M		1753112
+	881828969	Explore-Arpeggio_138bpm4-4_L16M-P1M	D:\Usuarios\rma\Desktop\Wwise-Lessons\201\Lesson 1\.cache\Mac\SFX\Explore-Arpeggio_138bpm4-4_L16M-P1M_0A288869.wem		\Interactive Music Hierarchy\Music\Explore\Explore-Arpeggio_138bpm4-4_L16M-P1M\Explore-Arpeggio_138bpm4-4_L16M-P1M		6344412
+	884620608	Explore-Theme_138bpm4-4_L16M-P1M	D:\Usuarios\rma\Desktop\Wwise-Lessons\201\Lesson 1\.cache\Mac\SFX\Explore-Theme_138bpm4-4_L16M-P1M_0A288869.wem		\Interactive Music Hierarchy\Music\Explore\Explore-Theme_138bpm4-4_L16M-P1M\Explore-Theme_138bpm4-4_L16M-P1M		6344412
+
