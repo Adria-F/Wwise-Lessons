@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>D:\Usuarios\rma\Desktop\Wwise-Lessons\201\Lesson 1\</ProjectRoot>
-		<SourceFilesRoot>D:\Usuarios\rma\Desktop\Wwise-Lessons\201\Lesson 1\.cache\Windows\</SourceFilesRoot>
+		<ProjectRoot>D:\Usuarios\rma\Desktop\Wwise-Lessons\201\Lesson 3\</ProjectRoot>
+		<SourceFilesRoot>D:\Usuarios\rma\Desktop\Wwise-Lessons\201\Lesson 3\.cache\Windows\</SourceFilesRoot>
 		<SoundBanksRoot>D:\Usuarios\rma\Desktop\Wwise-Lessons\cube\soundbanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>D:\Usuarios\rma\Desktop\Wwise-Lessons\201\cube\soundbanks\Windows</ExternalSourcesOutputRoot>
@@ -643,29 +643,157 @@
 				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Music\Music"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="274485107" Language="SFX">
-					<ShortName>Explore-Piano_138bpm4-4_L16M-P0.wav</ShortName>
-					<Path>SFX\Explore-Piano_138bpm4-4_L16M-P0_0A288869.wem</Path>
+				<File Id="7591107" Language="SFX">
+					<ShortName>Combat-B-Gtr3_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-B-Gtr3_138bpm4-4_L8M-P0_0A288869.wem</Path>
 				</File>
-				<File Id="334278060" Language="SFX">
-					<ShortName>Explore-Rhythm_138bpm4-4_L16M-P1M.wav</ShortName>
-					<Path>SFX\Explore-Rhythm_138bpm4-4_L16M-P1M_0A288869.wem</Path>
+				<File Id="13403689" Language="SFX">
+					<ShortName>Combat-A\Combat-A-Arpeggio_138bpm4-4-L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-A\Combat-A-Arpeggio_138bpm4-4-L8M-P0_0A288869.wem</Path>
 				</File>
-				<File Id="532338111" Language="SFX">
-					<ShortName>Explore-Bridge_138bpm4-4_L17M-P0.wav</ShortName>
-					<Path>SFX\Explore-Bridge_138bpm4-4_L17M-P0_0A288869.wem</Path>
+				<File Id="26401106" Language="SFX">
+					<ShortName>Combat-TransToBridge_138bpm3-4_L3M-P1M.wav</ShortName>
+					<Path>SFX\Combat-TransToBridge_138bpm3-4_L3M-P1M_0A288869.wem</Path>
 				</File>
-				<File Id="562753799" Language="SFX">
-					<ShortName>Explore-TransToBridge_138bpm3-4_L3M-P1M.wav</ShortName>
-					<Path>SFX\Explore-TransToBridge_138bpm3-4_L3M-P1M_0A288869.wem</Path>
+				<File Id="99497700" Language="SFX">
+					<ShortName>Combat-A\Combat-A-Bass2_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-A\Combat-A-Bass2_138bpm4-4_L8M-P0_0A288869.wem</Path>
 				</File>
-				<File Id="881828969" Language="SFX">
-					<ShortName>Explore-Arpeggio_138bpm4-4_L16M-P1M.wav</ShortName>
-					<Path>SFX\Explore-Arpeggio_138bpm4-4_L16M-P1M_0A288869.wem</Path>
+				<File Id="99948550" Language="SFX">
+					<ShortName>Combat-B-LowChoir_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-B-LowChoir_138bpm4-4_L8M-P0_0A288869.wem</Path>
 				</File>
-				<File Id="884620608" Language="SFX">
-					<ShortName>Explore-Theme_138bpm4-4_L16M-P1M.wav</ShortName>
-					<Path>SFX\Explore-Theme_138bpm4-4_L16M-P1M_0A288869.wem</Path>
+				<File Id="133656547" Language="SFX">
+					<ShortName>Combat-Bridge\Combat-Bridge-Gtr2_138bpm4-4_L17M-P1B.wav</ShortName>
+					<Path>SFX\Combat-Bridge\Combat-Bridge-Gtr2_138bpm4-4_L17M-P1B_0A288869.wem</Path>
+				</File>
+				<File Id="154786092" Language="SFX">
+					<ShortName>Combat-AB-Rhythm-HiHat_138bpm4-4_L4M-P0.wav</ShortName>
+					<Path>SFX\Combat-AB-Rhythm-HiHat_138bpm4-4_L4M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="230787642" Language="SFX">
+					<ShortName>Combat-A\Combat-A-HighChoir_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-A\Combat-A-HighChoir_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="276205795" Language="SFX">
+					<ShortName>Combat-B-Gtr1_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-B-Gtr1_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="303631287" Language="SFX">
+					<ShortName>Combat-A\Combat-A-LowChoir_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-A\Combat-A-LowChoir_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="336972404" Language="SFX">
+					<ShortName>Combat-A\Combat-A-Synth1_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-A\Combat-A-Synth1_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="339042675" Language="SFX">
+					<ShortName>Combat-B-HighChoir_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-B-HighChoir_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="362791436" Language="SFX">
+					<ShortName>Combat-A\Combat-A-Gtr2_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-A\Combat-A-Gtr2_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="406864681" Language="SFX">
+					<ShortName>Combat-B-StaccStrings2_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-B-StaccStrings2_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="420716596" Language="SFX">
+					<ShortName>Combat-B-Synth2_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-B-Synth2_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="508975897" Language="SFX">
+					<ShortName>Combat-B-Arpeggio_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-B-Arpeggio_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="517572505" Language="SFX">
+					<ShortName>Combat-A\Combat-A-LowBrass_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-A\Combat-A-LowBrass_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="533112979" Language="SFX">
+					<ShortName>Combat-B-Synth1_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-B-Synth1_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="536218522" Language="SFX">
+					<ShortName>Combat-B-Gtr2_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-B-Gtr2_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="546771686" Language="SFX">
+					<ShortName>Combat-B-StaccStrings1_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-B-StaccStrings1_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="555448355" Language="SFX">
+					<ShortName>Combat-A\Combat-A-Bass1_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-A\Combat-A-Bass1_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="593416694" Language="SFX">
+					<ShortName>Combat-Bridge\Combat-Bridge-Main_138bpm4-4_L17M-P1B.wav</ShortName>
+					<Path>SFX\Combat-Bridge\Combat-Bridge-Main_138bpm4-4_L17M-P1B_0A288869.wem</Path>
+				</File>
+				<File Id="603606549" Language="SFX">
+					<ShortName>Combat-B-Bass1_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-B-Bass1_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="622437083" Language="SFX">
+					<ShortName>Combat-A\Combat-A-StaccStrings2_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-A\Combat-A-StaccStrings2_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="643930587" Language="SFX">
+					<ShortName>Combat-AB-Rhythm-Main_138bpm4-4_L4M-P0.wav</ShortName>
+					<Path>SFX\Combat-AB-Rhythm-Main_138bpm4-4_L4M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="647307052" Language="SFX">
+					<ShortName>Combat-A\Combat-A-Strings2_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-A\Combat-A-Strings2_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="691913718" Language="SFX">
+					<ShortName>Combat-A\Combat-A-Gtr1_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-A\Combat-A-Gtr1_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="735986005" Language="SFX">
+					<ShortName>Combat-A\Combat-A-Gtr3_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-A\Combat-A-Gtr3_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="760021172" Language="SFX">
+					<ShortName>Combat-B-Bass2_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-B-Bass2_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="812137400" Language="SFX">
+					<ShortName>Combat-B-Strings2_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-B-Strings2_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="842454878" Language="SFX">
+					<ShortName>Combat-B-LowBrass_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-B-LowBrass_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="868520681" Language="SFX">
+					<ShortName>Combat-A\Combat-A-Strings1_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-A\Combat-A-Strings1_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="879836694" Language="SFX">
+					<ShortName>Combat-Bridge\Combat-Bridge-Gtr3_138bpm4-4_L17M-P1B.wav</ShortName>
+					<Path>SFX\Combat-Bridge\Combat-Bridge-Gtr3_138bpm4-4_L17M-P1B_0A288869.wem</Path>
+				</File>
+				<File Id="927015282" Language="SFX">
+					<ShortName>Combat-Bridge\Combat-Bridge-Gtr1_138bpm4-4_L17M-P1B.wav</ShortName>
+					<Path>SFX\Combat-Bridge\Combat-Bridge-Gtr1_138bpm4-4_L17M-P1B_0A288869.wem</Path>
+				</File>
+				<File Id="951991447" Language="SFX">
+					<ShortName>Combat-B-Strings1_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-B-Strings1_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="1009184880" Language="SFX">
+					<ShortName>Combat-A\Combat-A-Synth2_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-A\Combat-A-Synth2_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="1015885533" Language="SFX">
+					<ShortName>Combat-A\Combat-A-StaccStrings1_138bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\Combat-A\Combat-A-StaccStrings1_138bpm4-4_L8M-P0_0A288869.wem</Path>
+				</File>
+				<File Id="1020841823" Language="SFX">
+					<ShortName>Combat-AB-Rhythm-PercPulse_138bpm4-4_L4M-P0.wav</ShortName>
+					<Path>SFX\Combat-AB-Rhythm-PercPulse_138bpm4-4_L4M-P0_0A288869.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
