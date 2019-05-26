@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{4B171809-A1BF-486E-A442-DBF6B9DB3CD7}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{4B171809-A1BF-486E-A442-DBF6B9DB3CD7}" SchemaVersion="89">
 	<SoundcasterSessions>
 		<WorkUnit Name="Default Work Unit" ID="{4B171809-A1BF-486E-A442-DBF6B9DB3CD7}" PersistMode="Standalone">
 			<ChildrenList>
@@ -148,6 +148,10 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Story_Start" ID="{8666F0D0-B3FA-4C63-86B4-AF9072E6C0AA}" WorkUnitID="{2D8BE14E-9F98-4828-BA8E-FE6B89928F7D}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Explore" ID="{3F63E32B-58A0-41E8-88C4-F97166420561}" WorkUnitID="{25784DDF-F959-48B4-A3A6-D457CF13E563}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -160,14 +164,30 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Story_End" ID="{A48F9E33-FC5F-4A58-9E56-6EA25FAA9024}" WorkUnitID="{2D8BE14E-9F98-4828-BA8E-FE6B89928F7D}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Explore-Arpeggio_138bpm4-4_L16M-P1M" ID="{318F4381-A9AD-449B-B2D9-EEBD7AAD8E7F}" WorkUnitID="{25784DDF-F959-48B4-A3A6-D457CF13E563}"/>
 							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Monsters_Aware" ID="{2033BFEF-4C0A-4CC1-AA6F-7115FEDE5D61}" WorkUnitID="{2D8BE14E-9F98-4828-BA8E-FE6B89928F7D}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Monsters_Unaware" ID="{CAFC0FC3-DECF-4DD0-A1F9-D906D9CADCBD}" WorkUnitID="{2D8BE14E-9F98-4828-BA8E-FE6B89928F7D}"/>
+							<Position X="3" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="MusicVolume" ID="{12A86CFA-9D0B-438E-8C88-ACE03D5EF5F5}"/>
 							<Value>255</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="EnemyAware" ID="{511A4EBA-A408-4735-8258-E51EDB927F04}"/>
+							<Value>50</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="VoiceVolume" ID="{1BC7160B-65AB-47A5-9D7E-CF39A0FF4D2A}"/>
@@ -191,6 +211,7 @@
 						<CurrentSwitchRef Name="Left" ID="{AB05A8F3-EDB5-4706-9091-48CBB0549E6F}"/>
 						<CurrentSwitchRef Name="Concrete" ID="{0BFD2921-C3B4-4EF0-A3A5-BDAA47C94487}"/>
 						<CurrentSwitchRef Name="Badly_Injured" ID="{24212338-786F-4FB6-A1B3-FF68F9A08E83}"/>
+						<CurrentSwitchRef Name="Explore" ID="{E564C1F2-6F9C-43E7-894E-22C922800DE3}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

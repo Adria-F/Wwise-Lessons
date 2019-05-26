@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" SchemaVersion="89">
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" PersistMode="Standalone">
 			<ChildrenList>
@@ -1026,6 +1026,18 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Dead" ID="{88957439-75EF-4388-B7D5-C80FBE8EE054}" WorkUnitID="{71247B77-226A-4405-93DB-95421DC96BEE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{39B256F7-2902-451E-8190-0688B48626F8}" ShortID="1061782739">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="38"/>
+												<Property Name="BypassGameParameterInternalTransition" Type="bool" Value="True"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="EnemyAware" ID="{511A4EBA-A408-4735-8258-E51EDB927F04}" WorkUnitID="{8E67DF26-5F18-46E7-9F69-5A249A3950E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

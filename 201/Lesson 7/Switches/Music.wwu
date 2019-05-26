@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{A01BCC9B-A3A4-4A4C-B34C-C5D90F29DFD7}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{A01BCC9B-A3A4-4A4C-B34C-C5D90F29DFD7}" SchemaVersion="89">
 	<Switches>
 		<WorkUnit Name="Music" ID="{A01BCC9B-A3A4-4A4C-B34C-C5D90F29DFD7}" PersistMode="Standalone">
 			<ChildrenList>
@@ -42,6 +42,40 @@
 								</Point>
 								<Point>
 									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="Gameplay_Switch" ID="{1CCE4CB9-C9E4-4DCC-9CD4-E92C614BE093}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Combat" ID="{F1CE80C2-5246-42B3-A008-74C0FED7DD1E}"/>
+						<Switch Name="Explore" ID="{E564C1F2-6F9C-43E7-894E-22C922800DE3}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="EnemyAware" ID="{511A4EBA-A408-4735-8258-E51EDB927F04}"/>
+						<Curve Name="" ID="{A962CFA8-5750-4922-B5DD-1E690152AD2C}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>-1</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>50</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>101</XPos>
 									<YPos>0</YPos>
 									<Flags>37</Flags>
 								</Point>
