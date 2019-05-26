@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" SchemaVersion="89">
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" PersistMode="Standalone">
 			<ChildrenList>
@@ -56,6 +56,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Itempick" ID="{06FAF0EA-B606-4FD0-9274-444C206948AB}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A710F47F-07DA-40A5-AA2A-3A7EB395E8CF}" ShortID="850950963">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Health_Cue" ID="{4FEEA7AD-0221-4007-A4D8-E2FDEAF749A0}" WorkUnitID="{EEC71835-DE54-44F7-923B-A94428C39553}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -240,6 +250,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Teleport" ID="{7E422F5C-D4D8-4B3F-B2CE-8E11467AC08C}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4ABDEB6B-62DE-4B79-8163-73E27A38130E}" ShortID="613942662">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cymbal_Swell" ID="{973A3A8F-9C37-47B5-BE6B-A38D5018360B}" WorkUnitID="{EEC71835-DE54-44F7-923B-A94428C39553}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1404,6 +1424,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Itempick" ID="{06FAF0EA-B606-4FD0-9274-444C206948AB}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EBCBAB27-6489-44E0-AA3F-8FE41E8FF9CE}" ShortID="149725575">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Health_Cue" ID="{4FEEA7AD-0221-4007-A4D8-E2FDEAF749A0}" WorkUnitID="{EEC71835-DE54-44F7-923B-A94428C39553}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

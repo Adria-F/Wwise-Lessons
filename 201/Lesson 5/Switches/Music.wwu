@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{871DE6AA-7AA9-47E1-A1DC-6D2EE151B0EB}" SchemaVersion="89">
+	<Switches>
+		<WorkUnit Name="Music" ID="{871DE6AA-7AA9-47E1-A1DC-6D2EE151B0EB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Health_Status" ID="{A790DE03-72D8-47D2-8708-CCFE33477803}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Healthy" ID="{C28B187C-F1AF-447C-8252-CB160C7B4ED7}"/>
+						<Switch Name="Flesh_Wound" ID="{3F38DDC7-7BA9-4432-A01B-0429EDA8D09B}"/>
+						<Switch Name="Badly_Injured" ID="{BCDC122D-F13D-4D13-9048-207B445D0B63}"/>
+						<Switch Name="Nearly_Dead" ID="{38947377-5112-4288-A40F-F45B5AB1606F}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="PlayerHealth" ID="{B1BC4BE3-DED0-4EF1-89E0-83D78E80839C}"/>
+						<Curve Name="" ID="{30EF23CD-3A87-47E6-8C91-74CE6B77B79B}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>4</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>20</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>50</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>80</XPos>
+									<YPos>0</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
